@@ -13,8 +13,8 @@ def fetch_dad_joke():
 # Function to convert text to speech using Amazon Polly and save as a WAV file
 def text_to_speech(joke, file_name):
     polly_client = boto3.Session(
-        aws_access_key_id='AKIAW3MEFJK7YM2STEAU',
-        aws_secret_access_key='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',
+        aws_access_key_id='xxxxxxxx',
+        aws_secret_access_key='xxxxxxx',
         region_name='us-west-2'
     ).client("polly")
 
